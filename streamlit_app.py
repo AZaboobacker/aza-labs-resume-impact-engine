@@ -400,6 +400,10 @@ if st.session_state.get("last_output"):
             """,
             unsafe_allow_html=True,
         )
+        st.markdown(
+            f'<div class="aza-panel"><div class="helper-text" style="color:#e5e7eb; white-space:pre-wrap;">{bullets}</div></div>',
+            unsafe_allow_html=True,
+        )
 
     with col_new:
         st.markdown(
